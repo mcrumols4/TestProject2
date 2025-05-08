@@ -1,0 +1,26 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\Category;
+use App\Models\Note;
+// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+
+class NotesSeeder extends Seeder
+{
+    /**
+     * Seed the application's database.
+     */
+    public function run(): void
+    {
+        // User::factory(10)->create();
+
+        Note::insert([
+            'slug' => 'Nota1',
+            'title' => 'Nota Test 1',
+            'subtitle' => 'Es una nota',
+            'category_id' => 1,
+        ]);
+    }
+}
