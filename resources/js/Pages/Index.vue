@@ -31,8 +31,6 @@ const props = defineProps({
                     <input type="text" name="title" id="title">
                     <label for="subtitle">Subtitol</label>
                     <input type="text" name="subtitle" id="subtitle">
-                    <label for="category">Categoria</label>
-                    <select name="" id=""></select>
                 </form>
             </div>
         </div>
